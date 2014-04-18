@@ -1,0 +1,14 @@
+{
+    "name": "zicht/z-plugin-bower",
+    "description": "Bower plugin for Z",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joppe Aarts",
+            "email": "joppe@zicht.nl"
+        }
+    ],
+    "require": {
+
+    }
+}
