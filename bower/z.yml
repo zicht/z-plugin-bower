@@ -1,0 +1,11 @@
+tasks:
+    bower.publish:
+        help: "Publish a front end library as a bower (tarball) package on http://bower.dev3.zicht.intern"
+        set:
+            package_exclude_file: ? "rsync.exclude"
+            target_env: ? "development"
+        do:
+            - bower install
+            - @package
+            - scp $(package_file) zichter@dev3:/var/www/dev/bower/default/public/
+            - echo "Package available on http://bower.dev3.zicht.intern/$(package_file)"
