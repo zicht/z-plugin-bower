@@ -1,7 +1,9 @@
+# @version ">=2.0"
+
 tasks:
     bower.publish:
         help: "Publish a front end library as a bower (tarball) package on http://bower.dev3.zicht.intern"
-        set:
+        args:
             package_exclude_file: ? "rsync.exclude"
             target_env: ? "development"
         do:
