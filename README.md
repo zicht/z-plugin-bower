@@ -1,4 +1,5 @@
 # z plugin for bower
 
 # Maintainer(s)
-* Joppe Aarts <joppe@zicht.nl>
+* Michael Roterman <michael@zicht.nl>
+* Boudewijn Schoon <boudewijn@zicht.nl>
