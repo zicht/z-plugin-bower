@@ -8,6 +8,6 @@ tasks:
             target_env: ? "development"
         do:
             - bower install
-            - @package
+            - '@package'
             - scp $(package_file) zichter@dev3:/var/www/dev/bower/default/public/
             - echo "Package available on http://bower.dev3.zicht.intern/$(package_file)"
